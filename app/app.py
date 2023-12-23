@@ -1,5 +1,6 @@
 from flask import Flask
 app = Flask(__name__)
+server = app.server
 
 from transformers import BartTokenizer, BartForConditionalGeneration, BartConfig
 
